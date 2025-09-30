@@ -234,7 +234,7 @@ header.sticky ul li a {
 }
 
 .home {
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("../image/home-image.jpeg");
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("home-image.jpeg");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -565,7 +565,7 @@ p {
 }
 
 .timer.wrapper {
-  background-image: url("../image/counter-image.png"); 
+  background-image: url("counter-image.png"); 
 }
 
 
@@ -1097,4 +1097,5 @@ padding: 10px;
   .offer2.wrapper {
     height: 170vh;
   }
+
 }
