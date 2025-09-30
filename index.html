@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Scrabble at the beach</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+
+</head>
+
+<body>
+ 
+ 
+
+ 
+ 
+   <section class="home" id="home">
+
+     <button class="flex1" style="float: right; margin-right: 20px; margin-top: 50px; background-color: #A6D6D6;">
+              <span><a href="" target="_blank">Results Submission</a></span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </button>
+
+  <style> .color-change {
+    font-size: 28px;
+    font-weight: bold;
+    animation: colors 4s infinite alternate;
+  }
+
+  @keyframes colors {
+    0%   { color: #FCF259; }
+    50%  { color: #A6D6D6; }
+    100%  { color: orange; }
+   
+  }</style>  
+
+
+
+
+
+  <div class="container"></div>
+    <h1 class="color-change">Scrabble at the Beach</h1>
+      <p>The place where the Fun is</p>
+
+
+      
+      <a href="https://www.scrabbleuganda.com/live-event/UG138/html/A-standings.html" target="_blank" style="background-color: #A6D6D6;padding: 10px; margin: 10px; border-radius: 10px; font-weight: 400px; ">Division A</a> <a href="https://www.scrabbleuganda.com/live-event/UG138/html/B-standings.html" target="_blank" style="background-color: #A6D6D6;padding: 10px; margin: 10px; border-radius: 10px;">Division B</a> <a href="" style="background-color: #A6D6D6;padding: 10px; margin: 10px; border-radius: 10px;" > Results Submission </a>
+      
+
+      <div class="watchlive" style="margin-top: 100px">
+      <button style="margin-right: 20px; margin-top: 50px; font-size:25px;background-color:  #A6D6D6; border-radius: 10px;">
+              <span><a href="" target="_blank"> Watch live on YouTube</a></span>
+              <i class="fab fa-youtube" style=" color:red; padding-bottom: 5px;"></i>
+            </button>
+
+      </div>
+      <!-- <div class="content grid">
+      ghg
+          <span>ARRIVAL DATE </span> <br>
+          <input type="date" placeholder="29/20/2021">
+        </div>
+        <div class="box">
+          <span>DEPARTURE DATE </span> <br>
+          <input type="date" placeholder="29/20/2021">
+        </div>
+        <div class="box">
+          <span>ADULTS</span> <br>
+          <input type="number" placeholder="01">
+        </div>
+        <div class="box">
+          <span>CHILDREN </span> <br>
+          <input type="number" placeholder="01">
+        </div>
+        <div class="box">
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+      </div> -->
+    </div>
+    </section>
+   
+
+  
+
+ 
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      dots: false,
+      navText: ["<i class='far fa-long-arrow-alt-left'></i>", "<i class='far fa-long-arrow-alt-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+
+
+
+  <section class="timer about wrapper">
+    <div class="background"> </div>
+    <div class="container">
+      <div class="heading">
+       
+        <h2 style="color: yellow;"> <span></span> 
+         count down!!!</h2>
+      </div>
+
+      <div id="time" class="flex1 mtop"> </div>
+    </div>
+  </section>
+  <script src="js/jquery.countdown.js" charset="utf-8"></script>
+  <script src="js/jquery.countdown.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $('#time').countdown('2024/01/01', function(event) {
+      $(this).html(event.strftime(
+        '<div class="clock"><span>%d</span> <p>Days</p></div> ' +
+        '<div class="clock"><span>%H</span> <p>Hours</p></div> ' +
+        '<div class="clock"><span>%M</span> <p>Minutes</p></div> ' +
+        '<div class="clock"><span>%S</span> <p>Seconds</p></div> '
+      ));
+    });
+  </script>
+
+  <section class="wrapper2">
+    <div class="container">
+      <div class="heading mtop">
+        <h2>Our Awesome Partners</h2>
+        
+      </div>
+
+      <div class="content grid mtop">
+        <div class="box" style="background-color:#60a4d8;width:400px; margin-left: 200px;">
+          <!-- <i class="fas fa-shipping-fast"></i> -->
+          <img src="image/scrabbleUganda.jpeg" alt="" style="padding-top: 50px;">
+          <!-- <h3>Pick Up & Drop</h3> -->
+          <p>Scrabble Association of Uganda</p>
+          <!-- <span class='far fa-long-arrow-alt-right'></span> -->
+          <!-- <span class=''></span> -->
+        </div>
+        <div class="box" style="width:400px; background-color:#FCF259;">
+          <!-- <i class="fas fa-shipping-fast"></i> -->
+          <img src="image/farmvillelogo.jpeg" alt="" style="width: 300px;padding-left: 20px;padding-right: 20px; padding-top: 50px;">
+          <!-- <h3>Pick Up & Drop</h3> -->
+          <p>Farmville Ghee</p>
+          <!-- <span class='far fa-long-arrow-alt-right'></span> -->
+          <!-- <span class=''></span> -->
+        </div>
+        <!--
+         <div class="box" style="width:400px;">
+         
+          <h3  style="padding-top: 75px;padding-left: 20px;padding-right: 20px;">Esports
+            Federation Uganda </h3>
+         
+        </div>
+        
+        -->
+       
+    
+      </div>
+    </div>
+  </section> 
+
+    <footer>
+   
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> -->
+          <div class="social flex">
+           © 2025. All rights reserved scrabble at the beach.
+          </div>
+        </div>
+      </footer>
+         
+
+   
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> -->
+          
+        </div>
+
+        
+
+      
+
+       
+      </div>
+    </div>
+  </footer>
+</body>
+
+
+</html>
